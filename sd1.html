@@ -1,0 +1,76 @@
+<html>
+<style type="text/css">
+a{
+color="#ffffff";
+}
+body{
+font-family: 'Open Sans', sans-serif;
+background-image:url("a.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.box{
+background:white;
+width:400px;
+border: 1px solid black;
+padding:30px 20px 80px 60px;
+margin-left: auto;
+margin-right: auto;
+transform: translate(-3%,99%);
+}
+
+.value{
+background:#ecf0f1;
+border: #ccc 1px solid;
+border-bottom: #ccc 2px solid;
+padding-top:5px;
+color:#AAAAAA;
+color:#000000;
+font-size:1em;
+border-radius:4px;
+}
+.bt{
+background:#b2beff;
+width:125px;
+border-radius:4px;
+margin-top:10px;
+margin-bottom:30px;
+float:left;
+margin-left:16px;
+font-weight:800;
+font-size:0.8em;
+}
+.cl{
+padding:178px 10px 80px 60px;
+text-align: center;
+}
+.bt:hover
+{
+background-color:grey;
+}
+</style>
+<head>
+<title>LOG IN FORM</title>
+</head>
+<body>
+<form method="post" action="sd3.php">
+<div class="box">
+<p>USERNAME:
+<input type="text" placeholder="enter name here" size="28 px" class="value" name="name">
+<p>PASSWORD:
+<input type="password" placeholder="enter password here" size="28 px" class="value" name="pass" >
+<p></p>
+<input type="submit" value="submit" class="bt">
+<button type="reset" value="reset" class="bt">reset</button>
+</div>
+</form>
+<div class="cl">
+<p>
+<font color="#ffffff">Forgot your password? <u style="color:#ffffff;"><a href="sd2.html">"Click Here!"</a>
+</u>
+</font>
+</p>
+</div>
+</body>
+</html>

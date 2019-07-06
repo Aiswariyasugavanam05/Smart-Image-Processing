@@ -1,0 +1,77 @@
+<html>
+<head>
+<style type="text/css">
+.bt{
+background:#b2beff;
+width:125px;
+border-radius:4px;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+background-image:url("bmm.jpg");
+height:100%
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.searchTerm {
+ width: 100%;
+ border: 3px solid #ffffff;
+  padding: 10px;
+  height: 50px;
+   border-radius: 5px;
+   color: #ffffff;
+}
+.searchTerm:focus{
+  color: #000000
+}
+.searchButton {
+ position: absolute; 
+ right: 10px;
+  width:90px;
+  height: 27px;
+  border: 1px solid #2ecc71;
+  background: #ffffff;
+  text-align: center;
+  color: blue;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 15px;
+  
+  
+}
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bt:hover
+{
+background-color:grey;
+}
+</style>
+</head>
+<body>
+<form action="index.php" method="post">
+<p align="right">
+<input type="submit" value="UPLOAD PICS" name="submit" class="bt">
+</p>
+</form>
+<div class="wrap">
+   <div class="search">
+<form action="new6.php" method="POST">
+
+      
+<input type="text" name="search_entered" value='' placeholder="What are you looking for?"class="searchTerm"/> <br><br>
+ 
+<input type="submit" name="submit" value="Search" class="searchButton"/><br><br>
+        <i class="fa fa-search"></i>
+     </button>
+   
+</form>
+</div>
+</div>
+</body>
+</html>
